@@ -1,0 +1,8 @@
+{
+  "name": "CRMR",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "937d345f"
+}
