@@ -1,0 +1,72 @@
+<ion-app>
+  <ion-header translucent>
+    <ion-toolbar>
+      <ion-title>Crime Report</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content fullscreen>
+    <ion-list lines="full" class="ion-no-margin">
+      <ion-list-header lines="full">
+        <ion-label> Information </ion-label>
+      </ion-list-header>
+      <ion-item>
+        <ion-label>Name</ion-label>
+        <ion-input placeholder="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="fixed">Incident</ion-label>
+        <ion-input placeholder="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Location Of Incident</ion-label>
+        <ion-input placeholder="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Approx.Time</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+    </ion-list>
+
+    <ion-list lines="full" class="ion-no-margin">
+      <ion-list-header lines="full">
+        <ion-label> Details </ion-label>
+      </ion-list-header>
+
+      <ion-item>
+        <ion-label>Date</ion-label>
+        <ion-input placeholder="date" type="number"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Contact</ion-label>
+        <ion-input placeholder="number" type="number"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>E-Mail </ion-label>
+        <ion-input placeholder="placeholder" type="number"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Residence</ion-label>
+        <ion-input placeholder="Address Line 1"></ion-input>
+        <ion-input placeholder="Address Line 2"></ion-input>
+        <ion-label position="stacked">Address Of Incident</ion-label>
+        <ion-input placeholder="Address Line 1"></ion-input>
+        <ion-input placeholder="Address Line 2"></ion-input>
+      <ion-label position="stacked">City</ion-label>
+      <ion-input placeholder="City"></ion-input>
+        <ion-label position="stacked">State</ion-label>
+        <ion-input placeholder="State"></ion-input>
+        <ion-label position="stacked">Zip Code</ion-label>
+        <ion-input placeholder="Zip Code"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Lost Belongings(if any)</ion-label>
+        <ion-textarea placeholder="text"></ion-textarea>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-app>
